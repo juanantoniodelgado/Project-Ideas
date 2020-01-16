@@ -2,6 +2,7 @@
 
 Ideas for future projects.
 
+
 ### URL Shortener
 Simple CR(UD) microservice that returns a unique shortened URL that will redirect to the given URL in the request.
 
@@ -33,10 +34,11 @@ Possible add-ons:
 Given an [Anilist](https://anilist.co/) profile, iterate through every single completed anime (or manga) item trying to find related animes that have an unspecified status and return the complete list of items.
 
 Challanges:
-* If you design this project as a microservice you will easily face timeout errors due to the ridiculous amount of request to the Anilist API that will probably be needed to check the entire completed anime list.
+* If you design this project as a microservice you will easily face timeout errors due to the ridiculous amount of requests to the [Anilist API](https://anilist.gitbook.io/anilist-apiv2-docs/) that will probably be needed to check the entire completed anime list (a complete list of 500 items could easily result in more than 3500 requests).
+* This is be a good first approach to [GraphQL](https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql) API's.
 
 Possible add-ons:
-* Set priorities in the response list based on average score, item type (series, ova, ona, etc.) or user preferences. 
+* Order priorities in the response list based on average score, item type (series, ova, ona, etc.) or user preferences based on request parameter. 
 
 ### Raw ideas to extend
   - TODO microservice list with email reminders
