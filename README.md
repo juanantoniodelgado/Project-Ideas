@@ -35,7 +35,7 @@ Given an [Anilist](https://anilist.co/) profile, iterate through every single co
 
 Challanges:
 * If you design this project as a microservice you will easily face timeout errors due to the ridiculous amount of requests to the [Anilist API](https://anilist.gitbook.io/anilist-apiv2-docs/) that will probably be needed to check the entire completed anime list (a complete list of 500 items could easily result in more than 3500 requests).
-* This is be a good first approach to [GraphQL](https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql) API's.
+* This is a nice first approach to [GraphQL](https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql) API's.
 
 Possible add-ons:
 * Order priorities in the response list based on average score, item type (series, ova, ona, etc.) or user preferences based on request parameter.
