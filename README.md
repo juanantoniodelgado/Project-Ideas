@@ -18,13 +18,13 @@ Possible add-ons:
 Monolitic Wordpress look-alike CMS System that allows you to create blog posts, modify and delete them.
 
 Challanges:
-* This project is not a challange by itself but a portfolio project to show PHP expertise.
+* This project is not a challange by itself but a portfolio project to show PHP/Laravel/Symfony expertise.
 
 Possible add-ons:
 * Implement your own comments system or add [Disqus](https://disqus.com/) support.
 * Implement your own CDN system integrated in the project with full access to it.
 
-### Rick and Morty Random Quote
+### Rick and Morty Random Quotes
 Microservice that returns a [random quote](https://quotecatalog.com/quotes/tv/rick-and-morty/) of [Rick and Morty](https://en.wikipedia.org/wiki/Rick_and_Morty) series on every GET request.
 
 Possible add-ons:
@@ -38,7 +38,7 @@ Challanges:
 * This is be a good first approach to [GraphQL](https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql) API's.
 
 Possible add-ons:
-* Order priorities in the response list based on average score, item type (series, ova, ona, etc.) or user preferences based on request parameter. 
+* Order priorities in the response list based on average score, item type (series, ova, ona, etc.) or user preferences based on request parameter.
 
 ### Raw ideas to extend
   - TODO microservice list with email reminders
